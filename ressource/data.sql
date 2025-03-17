@@ -3,8 +3,8 @@ CREATE DATABASE pay_my_buddy;
 
 CREATE TABLE users (
     id SERIAL NOT NULL PRIMARY KEY,
-    username VARCHAR(100) NOT NULL,
-    email VARCHAR(100) NOT NULL,
+    username VARCHAR(50) NOT NULL,
+    email VARCHAR(255) NOT NULL,
     password VARCHAR(250) NOT NULL
 );
 
